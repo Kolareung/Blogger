@@ -1,0 +1,16 @@
+/home/kola/.rbenv/versions/2.1.5/bin/ruby -r ./siteconf20150122-13444-57rkf1.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling threads.c
+compiling context.c
+compiling locker.c
+compiling byebug.c
+compiling breakpoint.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150122-13444-1htvyzu/byebug
+installing default byebug libraries

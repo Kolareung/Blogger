@@ -1,0 +1,12 @@
+/home/kola/.rbenv/versions/2.1.5/bin/ruby -r ./siteconf20150122-13444-22gv7r.rb extconf.rb 
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.
